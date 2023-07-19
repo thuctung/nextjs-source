@@ -1,7 +1,6 @@
 export default function Home() {
-  console.log('plplpl');
-  console.log('plplpl');
-  const a = 12;
+  console.log('okook');
+  const a = 123;
   return (
     <div>
       <h1>Home page</h1>
