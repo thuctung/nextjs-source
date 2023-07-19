@@ -5,6 +5,12 @@ const A = () => {
   console.log('asdd', a);
   console.log('asdd', a);
   console.log('asdd', a);
+  console.log('asdd', a);
+  console.log('asdd', a);
+  console.log('asdd', a);
+  console.log('asdd', a);
+  console.log('asdd', a);
+  console.log('asdd', a);
   return <div>A</div>;
 };
 
