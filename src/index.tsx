@@ -4,6 +4,7 @@ const A = () => {
   const a = 12;
   console.log('asdd', a);
   console.log('asdd', a);
+  console.log('asdd', a);
   return <div>A</div>;
 };
 
