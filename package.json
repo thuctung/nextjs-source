@@ -5,7 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx ."
   },
   "dependencies": {
     "next": "latest",
@@ -28,7 +29,7 @@
     "typescript": "5.1.6"
   },
   "lint-staged": {
-    "*.ts": [
+    "*.{ts,tsx}": [
       "npm run lint",
       "npm run format",
       "git add ."
