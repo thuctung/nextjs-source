@@ -1,0 +1,9 @@
+// .eslintignore
+build/*
+public/*
+src/react-app-env.d.ts
+src/serviceWorker.ts
+craco.config.js
+/.next/
+/out/
+next-env.d.ts

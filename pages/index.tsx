@@ -1,9 +1,5 @@
-import Head from 'next/head';
+import HomePage from 'features/HomePage';
 
 export default function Home() {
-  return (
-    <div >
-      <h1>Home page</h1>
-    </div>
-  )
+  return <HomePage />;
 }
