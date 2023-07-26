@@ -1,21 +1,21 @@
 import React from 'react';
+
 import useLocale from 'hooks/useLocale';
 
-const HomePage = () => {
+const Blogs = () => {
   const { locale, changeLocal } = useLocale();
-  return (
-    <>
-      <h3>{locale.homepage.title}</h3>
-      <p>{locale.homepage.content}</p>
 
+  return (
+    <div>
+      <h1>{locale.blog.title}</h1>
       <button onClick={() => { changeLocal('vi'); }}>
         {locale.common.button.changeVi}
       </button>
       <button onClick={() => { changeLocal('en'); }}>
         {locale.common.button.changeEn}
       </button>
-    </>
+    </div>
   );
 };
 
-export default HomePage;
+export default Blogs;
